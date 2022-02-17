@@ -1,0 +1,75 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150vh;
+  font-family: "Exo", "sans-serif";
+  background-color: #769ef5;
+}
+.container {
+  width: 600px;
+  height: 300px;
+  padding: 20px;
+  background-image: linear-gradient(#93bef0, #3951db);
+  color: white;
+  border-radius: 10px;
+
+  text-align: center;
+  border: solid 2px #cca4c5;
+  box-shadow: 0 0 10px #b989b1;
+}
+.values {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.values-left {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.values-right {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.values-left input {
+  font-size: 60px;
+  width: 100%;
+  color: #ffffffff;
+  border: none;
+  background: none;
+  text-align: center;
+}
+.values-right input {
+  font-size: 60px;
+  width: 100%;
+  color: #ffffffff;
+  border: none;
+  background: none;
+  text-align: center;
+}
+.values-left select {
+  color: #ffffffff;
+  border: none;
+  background: none;
+  font-size: 25px;
+  cursor: pointer;
+}
+.values-right select {
+  color: #ffffffff;
+  border: none;
+  background: none;
+  font-size: 25px;
+  cursor: pointer;
+}
+.equals {
+  font-size: 50px;
+  font-weight: bold;
+  border: none;
+  color: white;
+}
