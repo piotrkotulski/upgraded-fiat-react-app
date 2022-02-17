@@ -1,4 +1,6 @@
 import { useState, useEffect } from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 
 const CurrencyApp = () => {
   const initChosenAmount = 1;
@@ -78,7 +80,7 @@ const CurrencyApp = () => {
         {isLeft ? <ValuesRight /> : <ValuesLeft />}
       </div>
 
-      <button onClick={(e) => setIsLeft((state) => !state)}>Switch</button>
+      <button onClick={(e) => setIsLeft((state) => !state)}><FontAwesomeIcon icon="fa-solid fa-repeat"/>Switch</button>
     </div>
   );
 };

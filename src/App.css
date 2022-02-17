@@ -73,3 +73,17 @@ body {
   border: none;
   color: white;
 }
+button{
+  font-size: 15px;
+  width: 15%;
+  color: #ffffffff;
+  border: solid whitesmoke;
+  background: none;
+  text-align: center;
+  border-radius: 20px; 
+  cursor: pointer;
+}
+button:hover{
+  color: #0c2e75;
+  background-color: pink;
+}
